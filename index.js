@@ -16,7 +16,7 @@ mongoose.connect('mongodb://kho903:64033902@boilerplate-shard-00-00.rnzb5.mongod
 
 
 
-app.get('/', (req, res) => res.send('Hello World! 안녕하세요!'))
+app.get('/', (req, res) => res.send('Hello World!'))
 
 app.post('/register', (req, res) => {
     // 회원가입 할 때 필요한 정보들을 client에서 가져오면
